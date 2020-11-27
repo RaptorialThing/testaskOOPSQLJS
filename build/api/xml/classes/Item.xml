@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src" full="Item" namespace="" name="Item" abstract="false" final="true" start="5" end="31">
+  <file path="/home/raptor/work/vacancy" file="task2-OOP.php" realpath="/home/raptor/work/vacancy/task2-OOP.php" size="430" time="2020-11-27T12:57:14+00:00" unixtime="1606481834" sha1="da1c12f29f9d9e6e316c03d32dadae45f6a438d2" relative="task2-OOP.php"/>
+  <member name="id" visibility="private" static="false" line="11">
+    <docblock>
+      <description compact="[$id id]"/>
+      <var type="object">
+        <type full="[int]" namespace="" name="[int]"/>
+      </var>
+    </docblock>
+  </member>
+  <member name="name" visibility="private" static="false" line="17">
+    <docblock>
+      <description compact="[$name name]"/>
+      <var type="object">
+        <type full="[string]" namespace="" name="[string]"/>
+      </var>
+    </docblock>
+  </member>
+  <member name="status" visibility="private" static="false" line="23">
+    <docblock>
+      <description compact="[$status status]"/>
+      <var type="object">
+        <type full="[int]" namespace="" name="[int]"/>
+      </var>
+    </docblock>
+  </member>
+  <member name="changed" visibility="private" static="false" line="29">
+    <docblock>
+      <description compact="[$changed changed]"/>
+      <var type="object">
+        <type full="[bool]" namespace="" name="[bool]"/>
+      </var>
+    </docblock>
+  </member>
+</class>

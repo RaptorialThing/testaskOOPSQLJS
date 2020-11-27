@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src" full="ItemsStorage" namespace="" name="ItemsStorage" abstract="false" final="false" start="4" end="18">
+  <file path="/home/raptor/work/vacancy" file="task1-OOP.php" realpath="/home/raptor/work/vacancy/task1-OOP.php" size="901" time="2020-11-27T12:48:32+00:00" unixtime="1606481312" sha1="e10288d1af3180d9a6d3f63796605958273a6e10" relative="task1-OOP.php"/>
+  <member name="items" visibility="private" static="true" line="5"/>
+  <method name="getItemById" start="7" end="9" abstract="false" final="false" static="true" visibility="public">
+    <parameter name="id" byreference="false" type="{unknown}"/>
+  </method>
+  <method name="setItemWithId" start="11" end="13" abstract="false" final="false" static="true" visibility="public">
+    <parameter name="id" byreference="false" type="{unknown}"/>
+    <parameter name="obj" byreference="false" type="{unknown}"/>
+  </method>
+  <method name="getAllItems" start="15" end="17" abstract="false" final="false" static="false" visibility="public"/>
+</class>

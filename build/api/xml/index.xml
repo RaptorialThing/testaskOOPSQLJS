@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<index xmlns="http://xml.phpdox.net/src" basedir="/home/raptor/work/vacancy">
+  <namespace name="">
+    <class name="ItemsStorage" src="all-tasks-OOP.php" xml="classes/ItemsStorage.xml"/>
+    <class name="Item" src="all-tasks-OOP.php" xml="classes/Item.xml"/>
+  </namespace>
+</index>

@@ -1,0 +1,47 @@
+<!-- <!DOCTYPE html>
+ЗАДАЧА #3 (JQUERY)
+1. Написать функцию перехвата нажатия клавиш left arrow, right arrow, up arrow, down arrow
+2. При нажатии на любую из клавиш появляется alert с названием нажатой клавиши
+3. Запрещается использовать любые плагины, которые осуществляют перехват нажатых клавиш
+4. Необходимо продолжать результат действия этих клавиш после закрытия alert -->
+<html>
+<head>
+<title>Try jQuery Online</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script>
+$(document).ready(function() {
+ var  
+ 		left = 37,
+        right = 39,
+        up = 38,
+        down = 40;
+
+ var codes = new Map(
+ 	[
+ 		[37,'left'],
+        [39,'right'],
+        [38,'up'],
+        [40,'down']
+ 	]
+ 	);
+
+    $(document).keydown(function(e) {
+        if (e.keyCode == left || e.keyCode == right || 
+        	e.keyCode == up || e.keyCode == down
+         ) { 
+        	alert(codes.get(e.keyCode));
+    	}
+    });
+    
+    // Document button <-^v-> click
+});
+
+</script>
+<style>
+</style>
+</head>
+<body>
+<h3>try -> left arrow, right arrow, up arrow, down arrow</h3>
+<textarea></textarea>
+</body>
+</html>
